@@ -1,0 +1,37 @@
+{
+    "name": "userjs-util",
+    "version": "1.0.0",
+    "description": "Utilities for userscripts.",
+    "main": "dist/index.js",
+    "module": "dist/index.es.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npx rollup -c"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/friendlyanon/userjs-util.git"
+    },
+    "keywords": [
+        "localstorage",
+        "communication",
+        "messaging",
+        "tab"
+    ],
+    "author": "friendlyanon",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/friendlyanon/userjs-util/issues"
+    },
+    "homepage": "https://github.com/friendlyanon/userjs-util#readme",
+    "devDependencies": {
+        "rollup": "^2.23.1",
+        "rollup-plugin-typescript2": "^0.27.2",
+        "tslib": "^2.0.1",
+        "typescript": "^3.9.7"
+    }
+}
